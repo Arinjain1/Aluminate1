@@ -1,0 +1,56 @@
+header {
+  display: flex; /* Make the header a flex container */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Distribute the items evenly */
+}
+
+header > div {
+  flex: 1; /* Make each div take up an equal amount of space */
+}
+
+.stori{
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image is scaled to cover the entire circle */
+    overflow: hidden; /* Hide any excess image area outside the circle */
+  }
+.carousel-item {
+    display: inline-block; /* Make the carousel items inline block elements */
+    width: 50%; /* Set the width of each item to 50% */
+  }
+
+.carousel-item img {
+  display: block;
+}
+
+
+.carousel-events-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-event {
+    height: 400px;
+    width: 500px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+.event-guest {
+    width: 400px;
+    padding-top: 80px;
+}
+
+.event-guest p {
+    font-size: 1.2rem;
+}
+#carouselExampleAutoplaying1{
+  height: 500px;
+}
+
+
+

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styleF.css">
+  <title>Find Alumini</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <!-- <header class="p-3 mb-3 border-bottom">
+      <div class="col-md-3 mb-10 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <img src="logo.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="200" height="60" loading="lazy" style="vertical-align: middle;">
+        </a>
+      </div>
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <link rel="stylesheet" href="style.css" />
+          </a>
+      
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="display: flex; align-items: center;">
+            <li><a href="#" class="nav-link px-2 link-secondary">Domain</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Year</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Native</a></li>
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">Skills</a></li>
+          </ul>
+      
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search" style="display: flex; align-items: center;">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+          </form>
+      
+          <div class="dropdown text-end" style="display: flex; align-items: center;">
+            <a
+              href="#"
+              class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle" />
+            </a>
+            <ul class="dropdown-menu text-small" >
+              <li><a class="dropdown-item" href="#">Name</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header> -->
+  <header class="p-3 mb-3 border-bottom">
+    <div class="col-md-3 mb-10 mb-md-0">
+      <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+        <img src="logo.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="200" height="60"
+          loading="lazy">
+      </a>
+    </div>
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-secondary">Domain</a></li>
+          <li><a href="#Services" class="nav-link px-2 link-body-emphasis">Year</a></li>
+          <li><a href="#Event" class="nav-link px-2 link-body-emphasis">Native</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Skills</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="IMG2.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small">
+            <li><a class="dropdown-item" href="#">Name</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- cards -->
+  <!-- card 1 -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <!-- Card 1 -->
+        <div class="card mb-3" style="max-width: 540px; margin: 20px auto;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="GT.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Gaurav Thadani</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content
+                  is a little bit longer.
+                </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#infoModalCenterAligned1">
+                  Know more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popup 1 -->
+  <div class="modal fade" id="infoModalCenterAligned1" tabindex="-1" role="dialog"
+    aria-labelledby="infoModalCenterAlignedTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-light py-2">
+          <div class="d-flex align-items-center">
+            <img src="GT.png" alt="Person icon" width="40" height="40" class="me-2">
+            <h5 class="modal-title text-center" id="exampleModalLongTitle">Gaurav Thadani</h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="card-text">
+            Name: Gaurav Thadani <br>
+            Branch: Electronics and Telecommunication Engineering <br>
+            Passout Year: 2023<br>
+            Current Company: Zs Associates<br>
+            Past experience: President @ E-Cell IET-DAVV Founder(Minimal Holic) <br>
+            Description: 
+          </p>
+        </div>
+        <div class="modal-footer bg-light py-2">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 2 -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <!-- Card 2 -->
+        <div class="card mb-3" style="max-width: 540px; margin: 20px auto;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="RN.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Rita Nema</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content
+                  is a little bit longer.
+                </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#infoModalCenterAligned2">
+                  Know more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popup 2-->
+  <div class="modal fade" id="infoModalCenterAligned2" tabindex="-1" role="dialog"
+    aria-labelledby="infoModalCenterAlignedTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-light py-2">
+          <div class="d-flex align-items-center">
+            <img src="RN.png" alt="Person icon" width="24" height="24" class="me-2">
+            <h5 class="modal-title text-center" id="exampleModalLongTitle">Riti Nema</h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+        <div class="modal-footer bg-light py-2">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 3 -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <!-- Card 3 -->
+        <div class="card mb-3" style="max-width: 540px; margin: 20px auto;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="PA.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Piyush Agrawal</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content
+                  is a little bit longer.
+                </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#infoModalCenterAligned3">
+                  Know more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popup 3-->
+  <div class="modal fade" id="infoModalCenterAligned3" tabindex="-1" role="dialog"
+    aria-labelledby="infoModalCenterAlignedTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-light py-2">
+          <div class="d-flex align-items-center">
+            <img src="PA.png" alt="Person icon" width="24" height="24" class="me-2">
+            <h5 class="modal-title text-center" id="exampleModalLongTitle">Piyush Agrawal</h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+        <div class="modal-footer bg-light py-2">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card 4 -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <!-- Card 4 -->
+        <div class="card mb-3" style="max-width: 540px; margin: 20px auto;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Alu.png" class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Naman Verma</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content
+                  is a little bit longer.
+                </p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#infoModalCenterAligned4">
+                  Know more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popup 4-->
+  <div class="modal fade" id="infoModalCenterAligned4" tabindex="-1" role="dialog"
+    aria-labelledby="infoModalCenterAlignedTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-light py-2">
+          <div class="d-flex align-items-center">
+            <img src="Alu.png" alt="Person icon" width="24" height="24" class="me-2">
+            <h5 class="modal-title text-center" id="exampleModalLongTitle">Header</h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+        <div class="modal-footer bg-light py-2">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <!-- footer -->
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <div class="col mb-3">
+      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+        <img src="logo.jpg" alt="">
+      </a>
+      <p class="text-body-secondary">© 2024</p>
+    </div>
+
+    <div class="col mb-3">
+
+    </div>
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Donate</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jobs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Feedback</a></li>
+       
+      </ul>
+    </div>
+
+    <div class="col mb-3">
+      <h5>Section</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Register</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Networking</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Events</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+<!--  -->

@@ -1,0 +1,24 @@
+header {
+  display: flex; /* Make the header a flex container */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Distribute the items evenly */
+}
+
+header > div {
+  flex: 1; /* Make each div take up an equal amount of space */
+}
+.img img {
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image is scaled to cover the entire circle */
+    overflow: hidden; /* Hide any excess image area outside the circle */
+  }
+.navbar-brand {
+    margin-left: 0; /* Remove the default margin */
+    padding-left: 0; /* Remove the default padding */
+  }
+  
+  .navbar-brand img {
+    margin-left: 0px; /* Add a small margin to the left */
+    width: 200px; /* Set the width of the logo */
+    height: 60px; /* Set the height of the logo */
+  }

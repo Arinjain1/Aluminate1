@@ -1,0 +1,43 @@
+header {
+  display: flex; /* Make the header a flex container */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Distribute the items evenly */
+}
+
+header > div {
+  flex: 1; /* Make each div take up an equal amount of space */
+}
+
+.dropdown.text-end {
+  margin-right: 10px; /* Add a margin of 10px to the first dropdown */
+}
+
+form[role="search"] {
+  width: 500px; /* Set the width of the form to 300px */
+  margin-left: 15%;
+}
+.button-search {
+    display: flex;
+    justify-content: space-around;
+}
+
+.question-main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.answer-question {
+    width: 50vw;
+}
+
+.ask-question {
+    width: 25vw;
+    padding-top: 20px;
+}
+
+.ask-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}

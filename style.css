@@ -1,0 +1,79 @@
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+section{
+    min-height: 100vh;
+    /* padding: 10rem 12% 10rem; */
+    /* padding-left: 50%; */
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Add this to center the content vertically */
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+span{
+    color: var(--main-color);
+}
+.home-content h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.home-content h5{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.home-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+.home-content h1:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.3);
+}
+
+.home-content h3:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.3);
+}
+
+.home-content h5:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.3);
+}
+.lead {
+    margin-left: 20px; /* adjust the value to your liking */
+    justify-content: center;
+}
+@media (min-width: 992px) {
+    .lead {
+      margin-left: 20px; /* adjust the value to your liking */
+    }
+    .leadH {
+        margin-left: 20px;
+    }
+}
+.leadH {
+    margin-left: 20px;
+}
+.servo {
+    color: blue;
+    font-size: 2rem;
+    /* text-decoration: wavy; */
+    text-decoration: underline;
+}
